@@ -9,16 +9,17 @@ clear: both;
 }
 
 html{ overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: scroll;
     
 }
 
 body{
+    width: 1351px;
     background: linear-gradient(180DEG ,rgb(255, 255, 255) , rgb(229, 229, 253) )FIXED;
 }
 
  BODY header{
-    width: 100%;
+    width: 1351px;
     background-color:#3B5998 ;
     color: ivory;
     display: inline-block;
@@ -26,7 +27,7 @@ body{
 
 
 body header p {
-    font-size: 40px;
+    font-size: 42px;
     font-family: sans-serif;
     font-weight: bolder;
     padding: 30px 5px 10px 180px;
@@ -199,25 +200,36 @@ select{
     cursor: pointer;
 }
 footer{
-    margin-top: 20px;
+    
     width: 100%;
-  
+    margin-top: 20px;
     background-color: white;
    text-align: justify;
-   text-align: center;
-   padding:50px 100px 50px 100px;
+   text-align: left;
+   padding:50px 100px 30px 200px;
    font-family: sans-serif;
    color: #3B5998;
    box-sizing: border-box;
    font-size: 13px;
-   line-height: 30px;
-   word-spacing: 10px;
+   line-height: 25px;
+   word-spacing: 15px;
 
     
+}
+
+.hover:hover{
+    text-decoration: underline;
 }
 
 .copy{
     color: gray;
     text-align: left;
     font-weight: bolder;
+}
+
+.lang {
+    width: 950px;
+}
+.lg{
+    text-align: left;
 }
